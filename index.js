@@ -6,7 +6,7 @@ function addTask() {
 
     if (taskName !== '') {
         tasks.push({ name: taskName, status: 'Pending' });
-        newTaskInput.value = ''; // Limpiar el input después de añadir la tarea
+        newTaskInput.value = ''; 
         updateInterface();
     }
 }

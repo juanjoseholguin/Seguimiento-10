@@ -1,10 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 3%;
-    background: linear-gradient(to bottom right, #C8D9E6, #567C8D);
+    background: linear-gradient(135deg, #C8D9E6 0%, #567C8D 100%); 
     color: #333;
 }
-
 
 .header {
     color: white;
@@ -101,3 +100,4 @@ body {
     gap: 2px; 
     transform: rotate(0deg); 
 }
+
