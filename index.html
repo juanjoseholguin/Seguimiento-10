@@ -4,37 +4,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Manager</title>
+    <title>Administrador de Tareas Juan José Holguín</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-<!-- Header -->
+
 <div class="header">
-    <h1>Administrador de Tareas</h1>
+    <h1>Administrador de Tareas Juan José  Holguín</h1>
+
 </div>
 
-<!-- Task input bar -->
+
 <div class="task-bar">
-    <input type="text" id="newTask" placeholder="What do you have to do today?">
+    <input type="text" id="newTask" placeholder="¿Qué quieres hacer hoy?">
     <button onclick="addTask()">Añadir Tarea</button>
 </div>
 
-<!-- Columns for tasks -->
+
 <div class="task-columns">
 
     <div class="column" id="pending">
-        <h3>Pendientes</h3> 
+        <h3>Pendientes:</h3> 
         <div id="pendingList"></div>
     </div>
 
     <div class="column" id="inProgress">
-        <h3>Haciendo</h3>
+        <h3>Haciendo:</h3>
         <div id="inProgressList"></div>
     </div>
 
     <div class="column" id="completed">
-        <h3>Completadas</h3>
+        <h3>Completadas:</h3>
         <div id="completedList"></div>
     </div>
 

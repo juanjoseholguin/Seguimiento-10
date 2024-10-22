@@ -5,7 +5,7 @@ body {
     color: #333;
 }
 
-/* Header */
+
 .header {
     color: white;
     text-align: center;
@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 
-/* Task input bar */
+
 .task-bar {
     background-color: #f8f8f8;
     padding: 20px;
@@ -49,7 +49,7 @@ body {
     background-color: #FBCB77;
 }
 
-/* Columns for tasks */
+
 .task-columns {
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@ body {
 
 .in-progress-arrows {
     display: flex;
-    justify-content: flex-end; /* Coloca las flechas juntas a la derecha */
-    gap: 2px; /* Reduce el espacio entre las flechas */
-    transform: rotate(0deg); /* Flechas totalmente horizontales */
+    justify-content: flex-end; 
+    gap: 2px; 
+    transform: rotate(0deg); 
 }
