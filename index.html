@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Task Manager</h1>
+</div>
+
+<!-- Task input bar -->
+<div class="task-bar">
+    <input type="text" id="newTask" placeholder="What do you have to do today?">
+    <button onclick="addTask()">Add Task</button>
+</div>
+
+<!-- Columns for tasks -->
+<div class="task-columns">
+
+    <div class="column" id="pending">
+        <h3>Pending</h3> 
+        <div id="pendingList"></div>
+    </div>
+
+    <div class="column" id="inProgress">
+        <h3>In Progress</h3>
+        <div id="inProgressList"></div>
+    </div>
+
+    <div class="column" id="completed">
+        <h3>Completed</h3>
+        <div id="completedList"></div>
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
+

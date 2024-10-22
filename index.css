@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 3%;
+    background: linear-gradient(to bottom right, #C8D9E6, #567C8D);
+    color: #333;
+}
+
+/* Header */
+.header {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Task input bar */
+.task-bar {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.task-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.task-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #2F4156;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-bar button:hover {
+    background-color: #FBCB77;
+}
+
+/* Columns for tasks */
+.task-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.task {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.task button:hover {
+    background-color: #0a0aff;
+    color: white;
+}
+
+.in-progress-arrows {
+    display: flex;
+    justify-content: flex-end; /* Coloca las flechas juntas a la derecha */
+    gap: 2px; /* Reduce el espacio entre las flechas */
+    transform: rotate(0deg); /* Flechas totalmente horizontales */
+}
